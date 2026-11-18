@@ -1,0 +1,33 @@
+{
+  "_source": "热量密度整理自 USDA FoodData Central（https://fdc.nal.usda.gov/）公开数据，取同类食物的常见烹饪方式；份量档位按常见餐盘估算。仅用于饮食记录参考，不作为医疗/临床依据。",
+  "_portion_grams": {"small": 0.7, "medium": 1.0, "large": 1.4},
+  "_cooking_factor": {"steamed": 0.85, "boiled": 0.9, "stir_fried": 1.15, "deep_fried": 1.35, "grilled": 1.0, "baked": 1.0, "raw": 0.9},
+  "foods": {
+    "apple_pie":          {"name_cn": "苹果派",       "kcal_per_100g": 237, "base_g": 120, "category": "dessert"},
+    "beet_salad":         {"name_cn": "甜菜沙拉",     "kcal_per_100g": 90,  "base_g": 150, "category": "salad"},
+    "beignets":           {"name_cn": "法式炸甜甜圈", "kcal_per_100g": 340, "base_g": 100, "category": "dessert"},
+    "bruschetta":         {"name_cn": "意式烤面包",   "kcal_per_100g": 200, "base_g": 120, "category": "starter"},
+    "carrot_cake":        {"name_cn": "胡萝卜蛋糕",   "kcal_per_100g": 415, "base_g": 100, "category": "dessert"},
+    "chicken_wings":      {"name_cn": "炸鸡翅",       "kcal_per_100g": 290, "base_g": 180, "category": "main"},
+    "chocolate_cake":     {"name_cn": "巧克力蛋糕",   "kcal_per_100g": 371, "base_g": 100, "category": "dessert"},
+    "eggs_benedict":      {"name_cn": "班尼迪克蛋",   "kcal_per_100g": 229, "base_g": 180, "category": "main"},
+    "fried_calamari":     {"name_cn": "炸鱿鱼圈",     "kcal_per_100g": 175, "base_g": 150, "category": "starter"},
+    "fried_rice":         {"name_cn": "炒饭",         "kcal_per_100g": 168, "base_g": 300, "category": "main"},
+    "garlic_bread":       {"name_cn": "蒜香面包",     "kcal_per_100g": 350, "base_g": 90,  "category": "starter"},
+    "greek_salad":        {"name_cn": "希腊沙拉",     "kcal_per_100g": 100, "base_g": 200, "category": "salad"},
+    "guacamole":          {"name_cn": "牛油果酱",     "kcal_per_100g": 160, "base_g": 100, "category": "starter"},
+    "hamburger":          {"name_cn": "汉堡",         "kcal_per_100g": 295, "base_g": 220, "category": "main"},
+    "hot_dog":            {"name_cn": "热狗",         "kcal_per_100g": 290, "base_g": 150, "category": "main"},
+    "hummus":             {"name_cn": "鹰嘴豆泥",     "kcal_per_100g": 166, "base_g": 100, "category": "starter"},
+    "miso_soup":          {"name_cn": "味噌汤",       "kcal_per_100g": 35,  "base_g": 250, "category": "soup"},
+    "panna_cotta":        {"name_cn": "意式奶冻",     "kcal_per_100g": 280, "base_g": 120, "category": "dessert"},
+    "pizza":              {"name_cn": "披萨",         "kcal_per_100g": 266, "base_g": 250, "category": "main"},
+    "pork_chop":          {"name_cn": "煎猪排",       "kcal_per_100g": 231, "base_g": 200, "category": "main"},
+    "prime_rib":          {"name_cn": "烤牛肋排",     "kcal_per_100g": 354, "base_g": 220, "category": "main"},
+    "ramen":              {"name_cn": "拉面",         "kcal_per_100g": 138, "base_g": 450, "category": "main"},
+    "risotto":            {"name_cn": "意式烩饭",     "kcal_per_100g": 166, "base_g": 300, "category": "main"},
+    "sashimi":            {"name_cn": "刺身",         "kcal_per_100g": 130, "base_g": 150, "category": "main"},
+    "steak":              {"name_cn": "牛排",         "kcal_per_100g": 271, "base_g": 200, "category": "main"},
+    "tiramisu":           {"name_cn": "提拉米苏",     "kcal_per_100g": 283, "base_g": 120, "category": "dessert"}
+  }
+}

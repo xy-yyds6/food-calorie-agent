@@ -1,0 +1,127 @@
+{
+  "n_test": 6500,
+  "accuracy": 0.5526,
+  "mae_simulated_kcal": 69.5,
+  "mae_real_interaction_kcal": 134.9,
+  "low_confidence_ratio": 0.1515,
+  "per_class_mae": {
+    "apple_pie": 96.5,
+    "beet_salad": 163.6,
+    "beignets": 30.9,
+    "bruschetta": 180.6,
+    "carrot_cake": 79.0,
+    "chicken_wings": 55.5,
+    "chocolate_cake": 40.9,
+    "eggs_benedict": 76.2,
+    "fried_calamari": 139.7,
+    "fried_rice": 16.7,
+    "garlic_bread": 99.1,
+    "greek_salad": 101.1,
+    "guacamole": 92.7,
+    "hamburger": 57.0,
+    "hot_dog": 31.7,
+    "hummus": 161.0,
+    "miso_soup": 99.9,
+    "panna_cotta": 24.5,
+    "pizza": 19.1,
+    "pork_chop": 61.7,
+    "prime_rib": 124.3,
+    "ramen": 5.2,
+    "risotto": 11.5,
+    "sashimi": 5.4,
+    "steak": 18.7,
+    "tiramisu": 14.8
+  },
+  "worst_samples": [
+    {
+      "path": "data\\images\\test\\guacamole\\test_003218.jpg",
+      "true_class": "guacamole",
+      "pred_class": "prime_rib",
+      "true_kcal": 160.0,
+      "pred_kcal": 778.8,
+      "err_kcal": 618.8,
+      "confidence": 0.9447
+    },
+    {
+      "path": "data\\images\\test\\guacamole\\test_003113.jpg",
+      "true_class": "guacamole",
+      "pred_class": "prime_rib",
+      "true_kcal": 160.0,
+      "pred_kcal": 778.8,
+      "err_kcal": 618.8,
+      "confidence": 0.3031
+    },
+    {
+      "path": "data\\images\\test\\hummus\\test_004852.jpg",
+      "true_class": "hummus",
+      "pred_class": "prime_rib",
+      "true_kcal": 166.0,
+      "pred_kcal": 778.8,
+      "err_kcal": 612.8,
+      "confidence": 0.6782
+    },
+    {
+      "path": "data\\images\\test\\prime_rib\\test_000467.jpg",
+      "true_class": "prime_rib",
+      "pred_class": "sashimi",
+      "true_kcal": 778.8,
+      "pred_kcal": 195.0,
+      "err_kcal": -583.8,
+      "confidence": 0.7255
+    },
+    {
+      "path": "data\\images\\test\\prime_rib\\test_000431.jpg",
+      "true_class": "prime_rib",
+      "pred_class": "sashimi",
+      "true_kcal": 778.8,
+      "pred_kcal": 195.0,
+      "err_kcal": -583.8,
+      "confidence": 0.8308
+    },
+    {
+      "path": "data\\images\\test\\prime_rib\\test_000255.jpg",
+      "true_class": "prime_rib",
+      "pred_class": "sashimi",
+      "true_kcal": 778.8,
+      "pred_kcal": 195.0,
+      "err_kcal": -583.8,
+      "confidence": 0.6632
+    },
+    {
+      "path": "data\\images\\test\\prime_rib\\test_000312.jpg",
+      "true_class": "prime_rib",
+      "pred_class": "sashimi",
+      "true_kcal": 778.8,
+      "pred_kcal": 195.0,
+      "err_kcal": -583.8,
+      "confidence": 0.4941
+    },
+    {
+      "path": "data\\images\\test\\prime_rib\\test_000314.jpg",
+      "true_class": "prime_rib",
+      "pred_class": "sashimi",
+      "true_kcal": 778.8,
+      "pred_kcal": 195.0,
+      "err_kcal": -583.8,
+      "confidence": 0.9927
+    },
+    {
+      "path": "data\\images\\test\\greek_salad\\test_001989.jpg",
+      "true_class": "greek_salad",
+      "pred_class": "prime_rib",
+      "true_kcal": 200.0,
+      "pred_kcal": 778.8,
+      "err_kcal": 578.8,
+      "confidence": 0.6884
+    },
+    {
+      "path": "data\\images\\test\\bruschetta\\test_001086.jpg",
+      "true_class": "bruschetta",
+      "pred_class": "prime_rib",
+      "true_kcal": 240.0,
+      "pred_kcal": 778.8,
+      "err_kcal": 538.8,
+      "confidence": 0.3201
+    }
+  ]
+}
