@@ -1,4 +1,4 @@
-﻿> **在线仓库**：https://github.com/<你的用户名>/food-calorie-agent   ← 建好仓库后把这行改成真实地址
+﻿> **在线仓库**：https://github.com/xy-yyds6/food-calorie-agent   ← 建好仓库后把这行改成真实地址
 
 > 本仓库不包含原始图像数据（Food-101 分片 1.3 GB + 解压出的 jpg 约 500 MB），
 > 按下面第三节的两条命令可以完全重建；仓库里保留了训练好的模型与全部实验结果。
